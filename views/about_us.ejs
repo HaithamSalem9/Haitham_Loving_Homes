@@ -1,0 +1,54 @@
+<%- include("partials/header.ejs") %>
+
+
+
+
+
+    <div class="container">
+        <div class="contact-container text-center">
+            <h2 class="mb-4 text-dark">اتصل بنا</h2>
+            <form action="/submit" method="POST">
+                <div class="mb-3">
+                    <label for="user_name" class="form-label text-dark">الاسم الكامل</label>
+                    <input type="text" name="user_name" class="form-control r_to_l" id="name" placeholder="أدخل اسمك">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label text-dark">البريد الإلكتروني</label>
+                    <input type="email" name="email" class="form-control r_to_l" id="email" placeholder="أدخل بريدك الإلكتروني">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label text-dark">رسالتك</label>
+                    <textarea class="form-control r_to_l" name="message" id="message" rows="4" placeholder="اكتب رسالتك هنا"></textarea>
+                </div>
+                
+                
+                <div class="mb-3">
+                    <label class="form-label text-dark">تقييمك للموقع</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="inquiryType" id="general" value="general">
+                        <label class="form-check-label text-dark" for="general">سيء</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="inquiryType" id="support" value="support">
+                        <label class="form-check-label text-dark" for="support">متوسط</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="inquiryType" id="feedback" value="feedback">
+                        <label class="form-check-label text-dark" for="feedback">جيد</label>
+                    </div>
+                </div>
+
+                
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="agree">
+                    <label class="form-check-label text-dark" for="agree">هل كنت تعرف موقعنا</label>
+                </div>
+
+                <button type="submit" class="btn btn-custom w-100">إرسال</button>
+            </form>
+        </div>
+    </div>
+
+
+
+<%- include("partials/footer.ejs") %>

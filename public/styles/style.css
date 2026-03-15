@@ -1,0 +1,227 @@
+
+body {
+    background-color: rgb(240, 240, 248);
+}
+#container {
+    display: flex;
+    justify-content: center;
+}
+.r_to_l{
+    text-align: right;
+}
+
+#pp{
+ text-align: center;
+
+}
+#img {
+    margin-left: 30%;
+}
+
+.prof_img {
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 30%;
+    margin-top: -10%;
+}
+.space_div{
+    
+    width: 100%;
+    height: 3rem;
+    background-color: #0000001a;
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em #0000001a, inset 0 .125em .5em #00000026;
+
+}
+
+
+.container2 {
+    display: grid;
+    width: 100%;
+    height: 700px; 
+    border-radius: 2%;
+    background-size: 100% 700px;
+    background-image: url("/public/img/pngtree-outdoor-sports-running-prismatic-background-image_269884.jpg") ;
+   align-content: start;
+   row-gap: 50px;
+}
+
+
+.head {
+     justify-self: end;
+     margin-top: 35px;
+     margin-right: 35px;
+
+}
+
+.p2 {
+    align-self: start;
+    text-align: right;
+    justify-self: center;
+}
+
+
+
+
+.bun1 {
+    height: 500px;
+    background-color: black;
+
+}
+
+.bun2 {
+    height: 500px;
+    background-color: black;
+    
+}
+
+
+.container3 {
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+}
+
+
+.container4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.svg_r {
+    margin-left: 50%;
+}
+
+
+
+.btn_r{
+    margin-left: 60%;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+} 
+th, td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+th {
+    background-color: #4c82af;
+    color: white;
+
+}
+
+
+
+.container5 {
+    display: grid;
+    gap: 5%;
+}
+
+
+
+.h_video {
+    justify-self: end;
+}
+
+
+.video {
+    justify-self: center;
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+.contact-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+
+.btn-custom {
+    background-color: #4c82af;
+    color: white;
+}
+
+
+.bigger_txt {
+    justify-self: start;
+    order: 2;
+    margin-left: 3%;
+    width: 30%;
+}
+
+.smaller_txt {
+    justify-self: start;
+    order: 3;
+    margin-left: 3%;
+    width: 30%;
+}
+
+.tit_cont {
+    width: 40%;
+    margin-right: 10%;
+}
+
+.tit {
+    width: 70%;
+}
+
+
+.container {
+    margin-top: 50px;
+}
+
+#text {
+    font-size: 16px;
+}
+
+
+.row.g-0.border.rounded.overflow-hidden.flex-md-row.mb-4.shadow-sm.h-md-250 {
+    height: 250px !important;
+}
+
+.card-with-img {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse; 
+    height: 100%; 
+}
+
+.card-with-img .card-img-left {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 1rem;
+    flex-shrink: 0;
+}
+
+.card-with-img .card-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left; 
+    flex: 1; 
+}
+
+.cont2 {
+    width: 100%;
+}

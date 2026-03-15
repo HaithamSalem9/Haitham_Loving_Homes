@@ -1,0 +1,118 @@
+<%- include("partials/header.ejs") %>
+
+
+        <div class="container py-4">
+  <h1 class="r_to_l">مقارنة الباقات</h1>
+  <table>
+    <tbody>
+      <tr>
+        <th>الباقة</th>
+        <th>الأنشطة</th>
+        <th>المرافق</th>
+        <th>ملاحظات</th>
+      </tr>
+      <tr>
+        <td>المميزة</td>
+        <td>أربعة مشي/أنشطة يوميًا</td>
+        <td>مساحة عشب خاصة، تحديثات يومية، مكافآت</td>
+        <td>حسب الاتفاق مع صاحب الحيوان</td>
+      </tr>
+      <tr>
+        <td>الكلاسيكية</td>
+        <td>ثلاثة مشي/أنشطة يوميًا</td>
+        <td>حظيرة لعب داخلية، منطقة للاسترخاء، جلسة حالقة وتنظيف</td>
+        <td>-</td>
+      </tr>
+      <tr>
+        <td>اليومية</td>
+        <td>مشيتين يومياً، مسار رشاقة، حفر رملية</td>
+        <td>منطقة لعب خارجية</td>
+        <td>تتوفر حزم مخصصة حسب الطلب</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="container py-3">
+  <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+    <h1 class="display-4 fw-normal text-body-emphasis">خيارات الحزم</h1>
+    <p class="fs-5 text-body-secondary">
+      اختر الباقة المناسبة لحيوانك الأليف أو تواصل معنا للحصول على باقة مخصصة.
+    </p>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3">
+          <h4 class="my-0 fw-normal">مميزة</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">
+            15 USD
+          </h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>أربعة مشي/أنشطة يومياً</li>
+            <li>مساحة عشب خاصة</li>
+            <li>تحديثات يومية وصور</li>
+            <li>مكافآت حسب الاتفاق</li>
+          </ul>
+          <a href="about_us" class="w-100 btn btn-lg btn-outline-primary package-btn">
+            اختر الباقة
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm">
+        <div class="card-header py-3">
+          <h4 class="my-0 fw-normal">كلاسيكية</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">
+            35 USD
+          </h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>ثلاثة مشي يومياً</li>
+            <li>حظيرة لعب داخلية</li>
+            <li>منطقة استرخاء</li>
+            <li>جلسة حالقة وتنظيف</li>
+          </ul>
+          <a href="about_us" class="w-100 btn btn-lg btn-primary package-btn">
+            ابدأ الآن
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card mb-4 rounded-3 shadow-sm border-primary">
+        <div class="card-header py-3 text-bg-primary border-primary">
+          <h4 class="my-0 fw-normal">يومية</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">
+            50 USD
+          </h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>مشيتين يومياً</li>
+            <li>منطقة لعب خارجية</li>
+            <li>مسار رشاقة</li>
+            <li>حفر في الرمل</li>
+          </ul>
+          <a href="about_us" class="w-100 btn btn-lg btn-primary package-btn">
+            اتصل بنا
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll(".package-btn").forEach(function(button){
+  button.addEventListener("click", function(){
+    alert("شكراً لاختيار الباقة");
+  });
+});
+</script>
+
+
+<%- include("partials/footer.ejs") %>
