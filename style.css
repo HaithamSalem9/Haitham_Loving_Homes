@@ -42,7 +42,7 @@ body {
     height: 700px; 
     border-radius: 2%;
     background-size: 100% 700px;
-    background-image: url("img/pngtree-outdoor-sports-running-prismatic-background-image_269884.jpg") ;
+    background-image: url("/public/img/pngtree-outdoor-sports-running-prismatic-background-image_269884.jpg") ;
    align-content: start;
    row-gap: 50px;
 }
@@ -162,13 +162,40 @@ th {
     color: white;
 }
 
-.cont {
-    margin-left: 5%;
-    margin-right: 5%;
+
+.bigger_txt {
+    justify-self: start;
+    order: 2;
+    margin-left: 3%;
+    width: 30%;
 }
 
-/* cards with a right image, all same size */
-/* make the outer row always 250px tall so every card box matches */
+.smaller_txt {
+    justify-self: start;
+    order: 3;
+    margin-left: 3%;
+    width: 30%;
+}
+
+.tit_cont {
+    width: 40%;
+    margin-right: 10%;
+}
+
+.tit {
+    width: 70%;
+}
+
+
+.container {
+    margin-top: 50px;
+}
+
+#text {
+    font-size: 16px;
+}
+
+
 .row.g-0.border.rounded.overflow-hidden.flex-md-row.mb-4.shadow-sm.h-md-250 {
     height: 250px !important;
 }
@@ -176,22 +203,25 @@ th {
 .card-with-img {
     display: flex;
     align-items: center;
-    flex-direction: row-reverse; /* image comes after text */
-    height: 100%; /* fill the fixed parent height */
+    flex-direction: row-reverse; 
+    height: 100%; 
 }
 
 .card-with-img .card-img-left {
-    /* occupy right half of the card and fill its height */
     width: 50%;
     height: 100%;
     object-fit: cover;
-    margin-left: 1rem; /* spacing between text and image */
+    margin-left: 1rem;
     flex-shrink: 0;
 }
 
 .card-with-img .card-text {
     display: flex;
     flex-direction: column;
-    text-align: left; /* ensure text inside each card is left-aligned */
-    flex: 1; /* allow text to take remaining space */
+    text-align: left; 
+    flex: 1; 
+}
+
+.cont2 {
+    width: 100%;
 }
