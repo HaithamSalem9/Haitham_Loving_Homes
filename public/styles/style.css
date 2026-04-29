@@ -1,7 +1,9 @@
 
+
 body {
     background-color: rgb(240, 240, 248);
 }
+
 #container {
     display: flex;
     justify-content: center;
@@ -10,6 +12,11 @@ body {
     text-align: right;
 }
 
+@media (max-width: 635px){
+.bt1{
+    margin-bottom: -150px;
+}
+}
 #pp{
  text-align: center;
 
